@@ -1,0 +1,93 @@
+
+/*Todo navegador coloca algum valor de padding e margin, mas cada navegador
+coloca um valor diferente.
+Para ter um padrão é bom zerar os dois.*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-login {
+    width: 130px;
+    height: 41px;
+    color: #FFFFFF;
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button-explore {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    border: none;
+    background: #ADFF00;
+    color: #000000;
+    width: 239px;
+    height: 64px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    cursor: pointer;
+    filter: drop-shadow (0px 4px 4px rgba(0,0,0,0.25));
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #515151;
+
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
